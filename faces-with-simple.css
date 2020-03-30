@@ -1,0 +1,44 @@
+
+/*==================================
+     =style Reactions faces=
+===================================*/
+.reactionsfaces-widget.js-reactions-vu{background-color:#ffffff;position:relative;overflow:hidden;text-align:center;max-width:400px;min-height:260px;margin:20px auto;padding:50px 30px;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none;}
+.reactionsfaces-widget.auto-height{min-height:auto!important;}
+/*each*/
+.reactionsfaces-widget em{display:block;margin:0 0 1em;padding:0;color:#383838;font-size:17px;font-weight:400!important;text-align:center!important;text-decoration:none!important;text-transform:none!important;font-style:normal!important;line-height:normal;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";filter:alpha(opacity=100);opacity:1;visibility:visible;}
+.reactionsfaces-widget:hover em{-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter:alpha(opacity=0);opacity:0;visibility:hidden;margin:0;padding:0;}
+.reactionsfaces-widget var{font-family:inherit;font-size:13px;display:block;direction:rtl;font-weight:400!important;border:0;background:none;background-color:transparent;color:#363c4a;margin:5px auto;padding:2px 5px;text-align:center;width:auto;white-space:pre-wrap;word-wrap:break-word;}
+.reactionsfaces-widget .reactions-faces ul > li.selected > var{background-color:#efefef;}
+.reactions-faces ul > li.feelback-faces > a.feelback-ico{position:relative;overflow:hidden;display:block;font-size:2.5em;}
+.reactions-faces ul > li.feelback-faces:hover a.feelback-ico{margin-bottom:-5px;}
+.reactions-faces ul > li.feelback-faces > a.feelback-ico > img{display:block;float:none;width:50px;margin:0;padding:0;border:0;}
+/* reactions feelback faces Widgets Style */
+.reactions-faces > ul{direction:ltr;list-style-type:none;margin-bottom:10px;padding:0;}
+.reactions-faces ul > li.feelback-faces{position:relative;display:inline-block;cursor:pointer;padding:0 5px;width:-moz-calc(100% / 6);width:-webkit-calc(100% / 6);width:-o-calc(100% / 6);width:calc(100% / 6);}
+/* toltip state of the faces */
+.reactions-faces ul > li > span{background-color:#ffffff;color:#000000;padding:8px 5px;position:absolute;font-size:11px;top:-35px;right:-webkit-calc(50% - 40px);right:calc(50% - 40px);width:80px;text-transform:capitalize;text-align:center;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter:alpha(opacity=0);opacity:0;visibility:hidden;line-height:normal;z-index:3;}
+.reactions-faces ul > li > span::before{content:"";border-right:5px solid transparent;border-left:5px solid transparent;border-top:7px solid #ffffff;position:absolute;bottom:-5px;left:-webkit-calc(50% - 5px);left:calc(50% - 5px);display:block;z-index:5;}
+.reactions-faces ul > li:hover span{top:-45px;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";filter:alpha(opacity=100);opacity:1;visibility:visible;}
+/*reactions message*/
+.reactions-message{position:absolute;right:0;bottom:0;overflow:hidden;text-align:center;min-width:100px;margin:10px;padding:5px 10px;border:1px solid #eee;background:#ffffff;}
+.reactions-message > p{vertical-align:top;color:#888;font-size:11px;}
+.reactions-message.err{position:relative;border:1px solid #fbd6d6;background:#fff7f7;}
+.reactions-message.err > p{color:#a02020;}
+/*discrimination*/
+.reactionsfaces-widget.js-reactions-vu,.reactionsfaces-widget .reactions-faces ul > li > span{-webkit-box-shadow:0 3px 10px rgba(0,0,0,0.16);-moz-box-shadow:0 3px 10px rgba(0,0,0,0.16);-ms-box-shadow:0 3px 10px rgba(0,0,0,0.16);-o-box-shadow:0 3px 10px rgba(0,0,0,0.16);box-shadow:0 3px 10px rgba(0,0,0,0.16);}
+.reactionsfaces-widget.js-reactions-vu{border-radius:6px;-o-border-radius:6px;-ms-border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px;}
+.reactions-faces ul > li > span{border-radius:3px;-o-border-radius:3px;-ms-border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+.reactionsfaces-widget ul > li > var,.reactionsfaces-widget .reactions-message{border-radius:30px;-o-border-radius:30px;-ms-border-radius:30px;-moz-border-radius:30px;-webkit-border-radius:30px;}
+.reactions-faces ul > li.feelback-faces:hover a.feelback-ico{-webkit-transform:scale(1.2);-ms-transform:scale(1.2);-o-transform:scale(1.2);transform:scale(1.2);}
+.reactions-faces ul > li > span,.reactions-faces ul > li.feelback-faces > a.feelback-ico,.reactionsfaces-widget em{-webkit-transition:all 0.2s;-moz-transition:all 0.2s;-ms-transition:all 0.2s;-o-transition:all 0.2s;transition:all 0.2s;}
+/*--loader-reactions--*/
+.loader-reactions *{display:none!important;}
+.loader-reactions,.loader-reactions::before,.loader-reactions::after{-webkit-animation:dotFlashing 1s infinite alternate;animation:dotFlashing 1s infinite alternate;}
+.loader-reactions{margin:10px auto;}
+.loader-reactions::before,.loader-reactions::after{content:'';display:inline-block;position:absolute;top:0;}
+.loader-reactions::before{left:-15px;animation-delay:0s;-webkit-animation-delay:0s;}
+.loader-reactions::after{left:15px;animation-delay:1s;-webkit-animation-delay:1s;}
+.loader-reactions{position:relative;padding:0!important;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;-moz-box-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;animation-delay:.5s;-webkit-animation-delay:.5s;}
+.loader-reactions,.loader-reactions::before,.loader-reactions::after{width:10px;height:10px;border-radius:100%;-o-border-radius:100%;-ms-border-radius:100%;-moz-border-radius:100%;-webkit-border-radius:100%;}
+/* Responsive */
+@media screen and (max-width:320px){.reactionsfaces-widget.js-reactions-vu{max-width:320px;padding:50px 15px;}.reactions-faces ul > li.feelback-faces > .feelback-ico{font-size:2em;}.reactions-message > p{font-size:10px;}}/* iphon 4/5 + nok lumia 520 */
